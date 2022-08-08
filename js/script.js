@@ -24,11 +24,11 @@ $('.searchImg').click(function(){
 
 $('.login').click(function(){
   // console.log("login");
-  location.href = "/src/login.html";
+  location.href = "./src/login.html";
 });
 
 $('.logout').click(function(){
   $('.logout,.login,.column,.loginArea,.loginSucc').removeClass('active');
   alert("Logout successful !");
-  location.href = "/src/login.html";
+  location.href = "./src/login.html";
 });
